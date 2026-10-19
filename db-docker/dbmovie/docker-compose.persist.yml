@@ -1,0 +1,10 @@
+volumes:
+
+  dbstorage:
+  dbbackup:
+
+services:
+  db:
+    volumes:
+      - dbstorage:/var/lib/postgresql
+      - dbbackup:/backup
