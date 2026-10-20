@@ -1,6 +1,6 @@
--- user : umovie (PROPRIETAIRE du schema data / de la table movie)
+-- user : umovie (PROPRIETAIRE du schema cinema / de la table movie)
 -- database : dbmovie
--- objectif : tracer la derniere modif (date + auteur) sur data.movie
+-- objectif : tracer la derniere modif (date + auteur) sur cinema.movie
 --            quel que soit l'utilisateur qui declenche l'update/insert
 --            (alain, jacques, matth, ... via v_movie_latest ou autre)
 
